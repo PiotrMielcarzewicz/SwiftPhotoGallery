@@ -278,7 +278,7 @@ public class SwiftPhotoGallery: UIViewController {
                     return
                 }
 
-                UIView.animate(withDuration: 0.35, animations: {
+                UIView.animate(withDuration: 0.2, animations: {
                     self.view.alpha = 0
                     image.center = CGPoint(x: self.view.bounds.midX, y: swipeDistance)
                 }, completion: { (complete) in
